@@ -35,6 +35,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Analyzer1.CodeFixes\Analyzer1.CodeFixes.csproj" />
     <ProjectReference Include="..\Analyzer1\Analyzer1.csproj" />
+    <ProjectReference Include="..\AnalyzerF\AnalyzerF.fsproj" />
   </ItemGroup>
 
   <ItemGroup>
