@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Analyzer1\Analyzer1.csproj" />
+    <ProjectReference Include="..\AnalyzerF\AnalyzerF.fsproj" />
   </ItemGroup>
 
   <ItemGroup>

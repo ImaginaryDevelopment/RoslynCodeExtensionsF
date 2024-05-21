@@ -21,7 +21,7 @@ namespace Analyzer1
     {
         public sealed override ImmutableArray<string> FixableDiagnosticIds
         {
-            get { return ImmutableArray.Create(Analyzer1Analyzer.DiagnosticId); }
+            get { return ImmutableArray.Create(Analyzer1Analyzer.DiagnosticId, AnalyzerF.AnalyzerHelpers.diagnosticId); }
         }
 
         public sealed override FixAllProvider GetFixAllProvider()
