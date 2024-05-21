@@ -27,6 +27,8 @@ namespace Analyzer1.Test
     {
         class {|#0:TypeName|}
         {   
+            static string _getProviderName(object item) => item.ToString();
+            internal static string GetProviderName(object Item) => (string)_getProviderName(Item);
         }
     }";
         const string sampleFix1 = @"
@@ -41,6 +43,8 @@ namespace Analyzer1.Test
     {
         class TYPENAME
         {   
+            static string _getProviderName(object item) => item.ToString();
+            internal static string GetProviderName(object Item) => (string)_getProviderName(Item);
         }
     }";
         //No diagnostics expected to show up
